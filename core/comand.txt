@@ -1,0 +1,5 @@
+*****TESTING******
+
+pip install coverage
+coverage run --omit='*/drf/*' manage.py test
+coverage html
